@@ -52,7 +52,7 @@ function otraVez() {
     if (cantidadTotal >= 10) {
         const descuento = precioTotal * 0.10;
         precioTotal -= descuento;
-        console.log('Recibiste un descuento del 10% por comprar '+ cantidadTotal + ' productos o más! Descuento obtenido: $' + descuento.toFixed(2));
+        console.log('Recibiste un descuento del 10% por comprar 10 productos o más! Descuento obtenido: $' + descuento.toFixed(2));
     }
 
     console.log('El precio total de los productos adquiridos es de $' + precioTotal);
